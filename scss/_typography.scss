@@ -1,0 +1,11 @@
+// Only mixins! Don't apply styles directly here!
+// Typography to be shared between frontend and editor-style.css
+
+
+@import "compass/typography";
+
+@mixin content-typography{
+
+    @include establish-baseline($base-font-size);
+
+}

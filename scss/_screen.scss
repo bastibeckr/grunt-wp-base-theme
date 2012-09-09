@@ -1,0 +1,6 @@
+// Screen stylesheet. We may have a _print.scss etc later
+// Main styles for front end
+
+@include global-reset;
+
+@import "normalize";

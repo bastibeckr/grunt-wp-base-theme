@@ -1,0 +1,10 @@
+// Generates a stylesheet for the TinyMCE - Editor.
+// The plan is that it will look automatically the same as in front end.
+
+@import "base";
+@import "typography";
+
+html .mceContentBody {
+    @import "normalize";
+    @include content-typography;
+}
